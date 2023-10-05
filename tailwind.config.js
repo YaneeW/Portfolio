@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Lora: ["Lora", serif],
-        Right: ["Righteous", cursive],
+        abel: ["Abel", sans - serif],
+        noto: ["Noto Serif Display", serif],
       },
     },
   },
