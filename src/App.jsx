@@ -1,10 +1,11 @@
 import "./index.css";
 import "./App.css";
+import HeaderSection from "./component/HeaderSection";
 
 function App() {
   return (
     <>
-      <span className="text-3xl font-bold text-red-600 underline">welcome</span>
+      <HeaderSection />
     </>
   );
 }

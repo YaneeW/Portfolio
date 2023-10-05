@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js}"],
+export default {
+  content: ["./src/**/*.{html,js,jsx}", "./portfolio/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Lora: ["Lora", serif],
+        Right: ["Righteous", cursive],
+      },
+    },
   },
   plugins: [],
 };
